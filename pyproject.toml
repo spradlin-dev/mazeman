@@ -1,0 +1,9 @@
+[project]
+name = "mazeman"
+version = "0.1.0"
+description = "A simple maze game to reminisce about 1999"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pygame>=2.6.1",
+]
