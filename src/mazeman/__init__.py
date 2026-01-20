@@ -18,7 +18,7 @@ def main():
     screen, clock, generator = init_game()
 
     player = Player(0, 0)
-    maze_walls = generator.generate()  # Called once at start
+    generator.generate()  # Called once at start
 
     running = True
     dt = 0
